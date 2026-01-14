@@ -1,0 +1,6 @@
+<form #f="ngForm" (ngSubmit)="onSubmit(f)">
+  <input name="name" ngModel required />
+  <input name="email" ngModel required />
+  <textarea name="message" ngModel></textarea>
+  <button type="submit">Send</button>
+</form>
